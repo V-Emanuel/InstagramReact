@@ -1,14 +1,22 @@
 export default function Usuario(){
+  const usuario = [{imagem: "assets/img/catanacomics.svg", nome:"catanacomics", subnome:"Catana"}];
     return (
         <div class="usuario">
-          <img src="assets/img/catanacomics.svg" />
+          {usuario.map((item) => <User imagem={item.imagem} nome={item.nome} subnome={item.subnome}/> )}
+        </div>
+    );
+}
+function User(props){
+  return (
+    <>
+    <img src={props.imagem} />
           <div class="texto">
-            <strong>catanacomics</strong>
+            <strong>{props.nome}</strong>
             <span>
-              Catana
+              {props.subnome}
               <ion-icon name="pencil"></ion-icon>
             </span>
           </div>
-        </div>
-    );
+    </>
+  );
 }
