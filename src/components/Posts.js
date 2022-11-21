@@ -14,7 +14,7 @@ export default function Posts(){
 }
 function Post(props){
   return (
-    <div class="post">
+    <div data-test="post" class="post">
             <div class="topo">
               <div class="usuario">
                 <img src={props.imgUsuario} />
@@ -26,24 +26,24 @@ function Post(props){
             </div>
 
             <div class="conteudo">
-              <img src={props.imgConteudo}/>
+              <img data-test="post-image" src={props.imgConteudo}/>
             </div>
 
             <div class="fundo">
               <div class="acoes">
                 <div>
-                  <ion-icon name={props.icon2}></ion-icon>
+                  <ion-icon data-test="like-post" name={props.icon2}></ion-icon>
                   <ion-icon name={props.icon3}></ion-icon>
                   <ion-icon name={props.icon4}></ion-icon>
                 </div>
                 <div>
-                  <ion-icon name={props.icon5}></ion-icon>
+                  <ion-icon data-test="save-post" name={props.icon5}></ion-icon>
                 </div>
               </div>
 
               <div class="curtidas">
                 <img src={props.imgCurtida} />
-                <div class="texto">
+                <div data-test="likes-number" class="texto">
                   Curtido por <strong>respondeai</strong> e <strong>outras 101.523 pessoas</strong>
                 </div>
               </div>

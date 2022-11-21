@@ -2,7 +2,7 @@ import React, { useState } from "react";
 export default function Usuario(){
   const usuario = [{imagem: "assets/img/catanacomics.svg", name:"catanacomics", subname:"catana"}];
     return (
-        <div class="usuario">
+        <div data-test="user" class="usuario">
           {usuario.map((item) => <User imagem={item.imagem} name={item.name} subname={item.subname}/> )}
         </div>
     );
@@ -24,12 +24,12 @@ function User(props){
   } 
   return (
     <>
-    <img onClick={inserirImagem} src={!imagem ? imagemPadrao : imagem} />
+    <img data-test="profile-image" onClick={inserirImagem} src={!imagem ? imagemPadrao : imagem} />
           <div class="texto">
             <strong>{props.name}</strong>
-            <span>
+            <span data-test="name">
             {!nome ? nomePadrao : nome}
-              <ion-icon onClick={inserirNome} name="pencil"></ion-icon>
+              <ion-icon data-test="edit-name" onClick={inserirNome} name="pencil"></ion-icon>
             </span>
           </div>
     </>
