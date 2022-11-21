@@ -1,4 +1,4 @@
-        
+     
 export default function Stories(props){
   const stories = [{imagem: "assets/img/9gag.svg", usuario:"9gag"}, 
                   {imagem:"assets/img/meowed.svg" , usuario:"meowed"},
@@ -11,7 +11,7 @@ export default function Stories(props){
     return (
         <div>
             <div class="stories">
-            {stories.map((item) => <Story imagem={item.imagem} usuario={item.usuario}/> )};
+            {stories.map((item) => <Story imagem={item.imagem} usuario={item.usuario}/> )}
           <div class="setinha">
             <ion-icon name="chevron-forward-circle"></ion-icon>
           </div>
