@@ -2,8 +2,8 @@
 
 <p align = "center">
 
-<p align = "center"> <img src="https://raw.githubusercontent.com/V-Emanuel/InstagramReact/main/pag1.png" width = 30%/>
-           <img src="https://raw.githubusercontent.com/V-Emanuel/InstagramReact/main/pag2.png" width = 30%/>
+<p align = "center"> <img src="https://raw.githubusercontent.com/V-Emanuel/InstagramReact/main/pag1.png" width = 45%/>
+           <img src="https://raw.githubusercontent.com/V-Emanuel/InstagramReact/main/pag2.png" width = 45%/>
    
 </p>
 
