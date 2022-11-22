@@ -2,7 +2,7 @@
 
 <p align = "center">
 
-<p align = "center"> <img src="https://raw.githubusercontent.com/V-Emanuel/InstagramReact/main/pag1.png" />
+<p align = "center"> <img src="https://raw.githubusercontent.com/V-Emanuel/InstagramReact/main/pag1.png" width = 70%/>
            <img src="https://raw.githubusercontent.com/V-Emanuel/InstagramReact/main/pag2.png"/>
    
 </p>
